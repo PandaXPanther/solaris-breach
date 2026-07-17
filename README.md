@@ -5,7 +5,7 @@ canvas, zero dependencies, zero build step.
 
 Live: https://solaris-breach.pages.dev/
 
-## Current state — v0.2
+## Current state | v0.2
 
 - Title screen (original v0.1) with working menu
 - 3-slot save system ("sol-records") in localStorage: character, depth,
