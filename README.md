@@ -29,27 +29,6 @@ Live: https://solaris-breach.pages.dev/
   per floor
 
 The player character is the original Solaris Breach Helio Knight model from
-the title screen, shared verbatim between menu and game (`SolarisKnight`).
+the title screen, shared verbatim between menu and game (`Solaris Knight`).
 Every enemy, relic, and pickup design is original vector art drawn with
 canvas primitives.
-
-## Files
-
-- `index.html` — title screen, save-slot UI, audio engine
-- `game.js` — the entire run engine
-- `tests/test-floor.js` — headless checks (`node tests/test-floor.js`)
-- `deployed-original.html` — frozen copy of the v0.1 deployment
-
-## Deploy (Cloudflare Pages)
-
-```sh
-npx wrangler pages deploy . --project-name solaris-breach
-```
-
-or drag the folder into the Pages dashboard. No build step.
-
-## Repo bootstrap (not yet pushed)
-
-```sh
-gh repo create PandaXPanther/solaris-breach --public --source . --push
-```
